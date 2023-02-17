@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	char low;
+	char apt;
 
-	for (low = 'z'; low >= 'a'; low--)
-		putchar(low);
+	for (apt = 'z'; apt>= 'a'; apt--)
+		putchar(apt);
 	        putchar('\n');
 
 	return (0);
