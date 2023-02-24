@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -6,12 +7,12 @@
  */
 int main(void)
 {
-	unsigned long int x = 3, n = 612852475143;
+	unsigned long int i = 3, n = 612852475143;
 
-	for (; x < 12057; x += 2)
+	for (; i < 12057; i += 2)
 	{
-		while (n % x == 0 && n != x)
-			n /= x;
+		while (n % i == 0 && n != i)
+			n /= i;
 	}
 	printf("%lu\n", n);
 	return (0);
