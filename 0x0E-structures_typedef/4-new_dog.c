@@ -2,11 +2,12 @@
 #include "dog.h"
 
 /**
- * _copy  -   Make a copy of passed in argument
- * @src:      Data to make copy of
- * Return:    Pointer
- */
-
+  * _strcpy - Copy a string
+  * @dest: Destination value
+  * @src: Source value
+  *
+  * Return: the pointer to dest
+  */
 char *_copy(char *src)
 {
 	char *ptr;
