@@ -25,7 +25,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - a function that returns the multiply of a and b.
+ * op_mul -  function that returns the multiply of a and b.
  * @a: an input integer
  * @b: an input integer
  * Return: The result to multiply a * b.
@@ -36,7 +36,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - a function that returns the divide of a and b.
+ * op_div -  function that returns the divide of a and b.
  * @a: an input integer
  * @b: an input integer
  * Return: The result to divide a / b.
@@ -67,3 +67,4 @@ int op_mod(int a, int b)
 	}
 	return (a % b);
 }
+
